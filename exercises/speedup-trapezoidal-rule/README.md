@@ -6,10 +6,8 @@
 ## Paralel Version
 *mpicc src/paralel.c -o bin/paralel -lm*
 
-# Executing the codes
+# Executing the experiments
+*./run-experiments* (It will create a number of files in './data')
 
-## Sequential Version
-*./bin/sequential*
-
-## Paralel Version
-*mpirun -n \<Number of processes\> ./bin/paralel*
+# Analysing the experiments
+You can generate a speedup curve for your experiments with the jupyter notebook at 'analyis' directory.
