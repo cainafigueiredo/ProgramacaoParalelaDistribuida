@@ -12,4 +12,4 @@
 *./bin/sequential*
 
 ## Paralel Version
-*mpirun -n <Number of processes> ./bin/paralel*
+*mpirun -n \<Number of processes\> ./bin/paralel*
