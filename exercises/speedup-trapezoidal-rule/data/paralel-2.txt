@@ -1,0 +1,3 @@
+Foram gastos 1.4 segundos
+Com n = 100000000 trapezoides, a estimativa
+da integral de 0.000000 até 1.000000 = 1.718282 
