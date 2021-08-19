@@ -1,0 +1,1 @@
+All C files that should be ignored during compiling.
