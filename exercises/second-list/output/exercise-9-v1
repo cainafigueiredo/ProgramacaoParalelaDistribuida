@@ -1,0 +1,24 @@
+The process 0 sent a message to process 3.
+The process 0 sent a message to process 2.
+The process 0 sent a message to process 1.
+The process 1 sent a message to process 3.
+The process 1 sent a message to process 2.
+The process 1 received a message from 0.
+The process 2 sent a message to process 3.
+The process 2 received a message from 1.
+The process 2 received a message from 0.
+The process 3 received a message from 0.
+The process 3 received a message from 1.
+The process 3 received a message from 2.
+The process 3 sent a message to process 2.
+The process 3 sent a message to process 1.
+The process 3 sent a message to process 0.
+The process 1 received a message from 3.
+The process 0 received a message from 3.
+The process 2 received a message from 3.
+The process 2 sent a message to process 1.
+The process 2 sent a message to process 0.
+The process 1 received a message from 2.
+The process 1 sent a message to process 0.
+The process 0 received a message from 2.
+The process 0 received a message from 1.

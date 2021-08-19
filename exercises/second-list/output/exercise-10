@@ -1,0 +1,26 @@
+Init token with value: 
+Process 0 started the communication with token equals to 2.
+Process 1 received the token from process 0 with value 2.
+Process 1 sent the token to process 2 with value 2.
+Process 2 received the token from process 1 with value 2.
+Process 2 sent the token to process 3 with value 2.
+Process 3 received the token from process 2 with value 2.
+Process 3 sent the token to process 0 with value 2.
+Process 0 received the token from process 3 with value 2.
+Process 0 decremented token.
+Process 0 sent the token to process 1 with value 1.
+Process 1 received the token from process 0 with value 1.
+Process 1 sent the token to process 2 with value 1.
+Process 2 received the token from process 1 with value 1.
+Process 2 sent the token to process 3 with value 1.
+Process 3 received the token from process 2 with value 1.
+Process 3 sent the token to process 0 with value 1.
+Process 0 received the token from process 3 with value 1.
+Process 0 decremented token.
+Process 1 received the token from process 0 with value 0.
+Process 1 sent the token to process 2 with value 0.
+Process 0 sent the token to process 1 with value 0.
+Process 2 received the token from process 1 with value 0.
+Process 2 sent the token to process 3 with value 0.
+Process 3 received the token from process 2 with value 0.
+Process 3 sent the token to process 0 with value 0.
