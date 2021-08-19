@@ -1,0 +1,28 @@
+# Removing data from previous execution
+rm ./output/*
+rm ./bin/*
+
+# Extracting the list of C files to compile
+SRC_PATH="./src"
+BIN_PATH="./bin"
+OUTPUT_PATH="./output"
+c_files=$(ls ${SRC_PATH} | grep .c)
+
+# Iterating over C files
+for c_file in ${c_files}; do
+
+    exercise_name=${c_file//.c/}
+
+    echo "#### Running $exercise_name ####"
+
+    # Compiling source file
+    mpicc ${SRC_PATH}/${c_file} -o ${BIN_PATH}/${exercise_name} -lm
+
+    # Running exercise
+    echo "Please, write the mpirun parameters for $exercise_name. E.g., --oversubscribe -np 4"
+    read parameters
+    echo $parameters
+    mpirun $parameters ${BIN_PATH}/${exercise_name} 2>&1 | tee ${OUTPUT_PATH}/${exercise_name}
+
+done
+
